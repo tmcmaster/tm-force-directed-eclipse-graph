@@ -1,6 +1,6 @@
 {
-  "name": "tm-force-directed-eclipse-graph",
-  "main": "tm-force-directed-eclipse-graph.html",
+  "name": "tm-force-directed-ellipse-graph",
+  "main": "tm-force-directed-ellipse-graph.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0"
   },

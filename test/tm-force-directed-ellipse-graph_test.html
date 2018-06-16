@@ -4,36 +4,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>tm-force-directed-eclipse-graph test</title>
+    <title>tm-force-directed-ellipse-graph test</title>
 
     <script src="../../webcomponentsjs/webcomponents-loader.js"></script>
     <script src="../../web-component-tester/browser.js"></script>
 
-    <link rel="import" href="../tm-force-directed-eclipse-graph.html">
+    <link rel="import" href="../tm-force-directed-ellipse-graph.html">
   </head>
   <body>
 
     <test-fixture id="BasicTestFixture">
       <template>
-        <tm-force-directed-eclipse-graph></tm-force-directed-eclipse-graph>
+        <tm-force-directed-ellipse-graph></tm-force-directed-ellipse-graph>
       </template>
     </test-fixture>
 
     <test-fixture id="ChangedPropertyTestFixture">
       <template>
-        <tm-force-directed-eclipse-graph prop1="new-prop1"></tm-force-directed-eclipse-graph>
+        <tm-force-directed-ellipse-graph prop1="new-prop1"></tm-force-directed-ellipse-graph>
       </template>
     </test-fixture>
 
     <script>
-      suite('tm-force-directed-eclipse-graph', () => {
+      suite('tm-force-directed-ellipse-graph', () => {
 
         test('instantiating the element with default properties works', () => {
           const element = fixture('BasicTestFixture');
-          assert.equal(element.prop1, 'tm-force-directed-eclipse-graph');
+          assert.equal(element.prop1, 'tm-force-directed-ellipse-graph');
           const elementShadowRoot = element.shadowRoot;
           const elementHeader = elementShadowRoot.querySelector('h2');
-          assert.equal(elementHeader.innerHTML, 'Hello tm-force-directed-eclipse-graph!');
+          assert.equal(elementHeader.innerHTML, 'Hello tm-force-directed-ellipse-graph!');
         });
 
         test('setting a property on the element works', () => {

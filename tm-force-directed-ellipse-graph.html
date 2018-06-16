@@ -1,6 +1,6 @@
 <link rel="import" href="../polymer/polymer-element.html">
 
-<dom-module id="tm-force-directed-eclipse-graph">
+<dom-module id="tm-force-directed-ellipse-graph">
   <template>
     <style>
       :host {
@@ -12,25 +12,25 @@
 
   <script>
     /**
-     * `tm-force-directed-eclipse-graph`
+     * `tm-force-directed-ellipse-graph`
      * 
      *
      * @customElement
      * @polymer
      * @demo demo/index.html
      */
-    class TmForceDirectedEclipseGraph extends Polymer.Element {
-      static get is() { return 'tm-force-directed-eclipse-graph'; }
+    class TmForceDirectedEllipseGraph extends Polymer.Element {
+      static get is() { return 'tm-force-directed-ellipse-graph'; }
       static get properties() {
         return {
           prop1: {
             type: String,
-            value: 'tm-force-directed-eclipse-graph'
+            value: 'tm-force-directed-ellipse-graph'
           }
         };
       }
     }
 
-    window.customElements.define(TmForceDirectedEclipseGraph.is, TmForceDirectedEclipseGraph);
+    window.customElements.define(TmForceDirectedEllipseGraph.is, TmForceDirectedEllipseGraph);
   </script>
 </dom-module>
